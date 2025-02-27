@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import "./app.css";
 
 export default function ComingSoonPage() {
-    const launchDate = new Date("2025-03-03T00:00:00+05:00");
+    const launchDate = new Date("2025-03-15T00:00:00+05:00");
 
     const calculateTimeLeft = useCallback(() => {
         const now = new Date();
@@ -118,7 +118,7 @@ export default function ComingSoonPage() {
 
                 <p className="mb-8 text-lg font-lucky md:text-xl text-muted-foreground hover:text-[#E9815E] transition-colors">
                     {!isLaunched
-                        ? "LAUNCHING WITH GUIDES & WIKI ON MARCH 3RD, 2024 (HOPEFULLY)"
+                        ? "LAUNCHING WITH GUIDES & WIKI ON MARCH 15TH, 2024 (HOPEFULLY)"
                         : "EXPLORE OUR COMPREHENSIVE GUIDES & WIKI NOW"}
                 </p>
 
